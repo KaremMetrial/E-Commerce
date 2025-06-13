@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="loading" lang="en" data-textdirection="rtl">
+<html class="loading" lang="en" data-data-textdirection="{{ Config::get('app.locale') === 'ar' ? 'rtl' :'ltr' }}">
 <head>
     @include('layouts.dashboard._head')
 </head>

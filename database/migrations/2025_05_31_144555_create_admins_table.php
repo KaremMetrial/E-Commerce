@@ -15,9 +15,10 @@
                 $table->string('name');
                 $table->string('email')->unique();
                 $table->string('password');
+                $table->rememberToken();
                 $table->timestamps();
 
-                $table->foreignId('role_id')->constrained('roles')->cascadeOnDelete();
+                $table->foreignId('role_id')->nullable()->constrained('roles')->cascadeOnDelete();
 
                 $table->index(['role_id', 'email']);
             });

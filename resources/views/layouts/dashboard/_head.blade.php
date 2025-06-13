@@ -57,7 +57,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/pages/dashboard-ecommerce.css')}}">
     <!-- END Page Level CSS-->
     <!-- BEGIN Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/st/adminyle.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/style.css') }}">
     <!-- END Custom CSS-->
 @endif
 @stack('dashboard-css')
